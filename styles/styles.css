@@ -1,3 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 :root{
     --border-color:  1px solid black;
     --heading-background-color: darkblue;
@@ -47,10 +53,13 @@ aside{
     text-align: center;
 }
 
+
 aside img {
     width: 200px;
     height: auto;
+
 }
+
 
 main img{
     width: var(--width-img);
@@ -58,11 +67,27 @@ main img{
     border: var(--border-color);
     padding: var(--img-padding);
     box-shadow:var(--box-shadow-color);
+    float: right;
 }
 
 
 footer{
     margin-top: 15px;
     border-top:var(--border-color);
+    text-align: center;
+}
+
+/* Class Selectors */
+
+.box{
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0 /10%);
+    padding: 1rem;
+    background-color: #dcdcdc;
+    color: #000;
+}
+
+aside{
+    width: 20em;
     text-align: center;
 }
