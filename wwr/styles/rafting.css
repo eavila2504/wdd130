@@ -1,8 +1,8 @@
 :root {
     --primary-color: #055a05;
-    --secondary-color: #f4a261;
+    --secondary-color: #fff;
     --accent1-color: #264653;
-    --accent2-color: #e9c46a;
+    --accent2-color: #134;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -40,6 +40,7 @@ nav, p, section, article {
 }
 
 /* Style the Hero Div with Overlays */
+
 .hero {
     position: relative;
 }
@@ -50,15 +51,15 @@ nav, p, section, article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
     padding:16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
 }
 
 .hero article {
@@ -69,7 +70,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--secondary-color);
 }
 
 h2 {
