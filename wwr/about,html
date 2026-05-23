@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <Title>About us | ThunderRun Rafting</Title>
+    <meta name="description"
+      content="About us website is builded to help you in finding the best place you can get fun with your family and friends our mission is provide you the best experience that ever had in your life">
+    <meta name="author" content="Eli Avila">
+</head>
+
+<body>
+    <header>
+        <img src="images/ alt=white water rafting logo company">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact. html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <img src="images/" alt="">
+            <h1>ThunderRun Rafting</h1>
+            <article>
+                <img src="images/" alt="">
+                <p></p>
+            </article>
+        </div>
+        <section>
+            <h2>History</h2>
+            <p></p>
+        </section>
+        <section>
+            <h2>Adventure Awaits You</h2>
+        </section>
+    </main>
+    <footer>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/" alt="Facebook Icon">
+            </a>
+            <a href="https://linkeldin.com">
+                <img src="images/" alt="LinkeldIn Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
