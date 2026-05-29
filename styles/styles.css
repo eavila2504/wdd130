@@ -77,7 +77,7 @@ aside {
     background-color: var(--general-color);
     color: #333;
     text-align: center;
-    /*position: relative;*/
+    position: relative;
 
 }
 
