@@ -12,20 +12,34 @@
     --text-align: var(--text-align)
 }
 
+header,
+.grid,
+footer {
+    max-width: 840px;
+    margin: auto;
+}
+
 nav {
     background-color: var(--heading-background-color);
-    padding: 10px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 
 }
 
 nav a {
     color: var(--general-color);
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 h1 {
     color: var(--heading-background-color);
+    border-bottom: 1px solid #333;
 }
 
 img {
@@ -56,14 +70,15 @@ p {
 }
 
 aside {
-    width: 20em;
-    margin: 1em;
+    width: 20rem;
+    margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1em;
+    padding: 1rem;
     background-color: var(--general-color);
     color: #333;
     text-align: center;
-    position: relative;
+    /*position: relative;*/
+
 }
 
 aside img {
@@ -89,7 +104,7 @@ footer {
 
 .box {
     margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 10%);
+    border: 1px solid rgb(0 0 0 / .1);
     padding: 1rem;
     background-color: var(--general-color);
     color: #000;
@@ -97,4 +112,23 @@ footer {
 
 .indent {
     padding-left: 2rem;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    margin: 1rem;
+    display: block;
+    grid-column: 2/3;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+
 }
