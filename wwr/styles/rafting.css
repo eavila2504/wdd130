@@ -205,7 +205,7 @@ h2 {
     width: 110px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    background-color: var(--accent4-color):
+    background-color: var(--accent4-color);
 }
 
 .gallery figure figcaption {
