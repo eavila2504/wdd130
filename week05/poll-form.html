@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<main>
+    <form>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+        <label for="useremail">Email:</label>
+        <label type="email" id="useremail" name="useremail"></label>
+        <label for="quantity">Select Quantity</label>
+        <select name="quantity" id="quantity">
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+        </select>
+
+        <label for="browser">WHat is your favorite browser?</label>
+        <select id="browser" name="browser">
+            <option value="chrome">Chrome</option>
+            <option vakue="safari">Safari</option>
+            <option value="edge">Edge</option>
+            <option value="brave">Brave</option>
+            <option value="other">Other</option>
+        </select>
+        <label for="pet">Do you have a household pet?</label>
+        <input type="checkbox" id="pet" name="pet">
+
+        <label for="feedback">List the places you have lived</label>
+        <textarea id="feedback" name="feedback" rows="4"
+          placeholder="Nealtican, Tijuana, San luis Rio Colorado, Mexicali, Ensenada, Rosarito"></textarea>
+
+        <button type="submit">Submit Poll</button>
+    </form>
+</main>
+<footer>
+    <p>© 2026 | HTML Form-User Poll Activity | Eli Avila</p>
+</footer>
+
+</html>
