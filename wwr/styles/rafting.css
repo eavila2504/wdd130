@@ -629,29 +629,80 @@ footer p {
     border-collapse: collapse;
     font-size: 0.88rem;
     font-family: var(--body-font);
+    table-layout: fixed;
 }
 
 .trips-table thead {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+    background-color: #0F6E56;
 }
 
 .trips-table thead th {
-    padding: 10px 12px;
+    padding: 11px 14px;
     text-align: left;
-    font-weight: bold;
+    font-weight: 500;
+    color: #E1F5EE;
+    font-size: 0.82rem;
+    letter-spacing: 0.02em;
 }
 
-.trips-table tbody tr:nth-child(even) {
-    background-color: var(--accent3-color);
+.trips-table thead th:first-child {
+    border-radius: 8px 0 0 0;
+}
+
+.trips-table thead th:last-child {
+    border-radius: 0 8px 0 0;
+}
+
+.trips-table tbody tr {
+    border-bottom: 1px solid var(--accent4-color);
+    transition: background 0.15s;
 }
 
 .trips-table tbody tr:hover {
-    background-color: #d4edda;
+    background-color: #f0f7f4;
 }
 
 .trips-table tbody td {
-    padding: 9px 12px;
-    border-bottom: 1px solid var(--accent4-color);
+    padding: 10px 14px;
     color: var(--accent1-color);
+    vertical-align: middle;
+}
+
+.trips-table tbody td:first-child {
+    font-weight: 500;
+}
+
+/* Difficulty badges */
+.badge {
+    display: inline-block;
+    padding: 3px 9px;
+    border-radius: 99px;
+    font-size: 0.78rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.badge-easy {
+    background: #EAF3DE;
+    color: #27500A;
+}
+
+.badge-medium {
+    background: #FAEEDA;
+    color: #633806;
+}
+
+.badge-hard {
+    background: #FCEBEB;
+    color: #791F1F;
+}
+
+.badge-expert {
+    background: #F4C0D1;
+    color: #72243E;
+}
+
+.trips-table .price {
+    font-weight: 500;
+    color: #0F6E56;
 }
