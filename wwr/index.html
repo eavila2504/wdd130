@@ -12,66 +12,97 @@
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
+<body>
+    <header>
+        <img src="images/wwr-logo.jpeg" alt="wwr company logo">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--Hero image-->
+        <div class="hero">
+            <img src="images/larger-banner.jpg" alt="Exciting white water rafting adventure">
+            <h1>Ride the Rush. Own the River!</h1>
+            <article>
+                <p>ThunderRun Rafting Co. delivers heart-pounding white water experiences for all
+                    slill
+                    levels. From Gentle floats to class V rapids, we have the perfect trip waiting
+                    for
+                    you.
+                </p>
+                <img src="images/" alt="">
+            </article>
+        </div>
 
-<header>
-    <img src="images/wwr-logo.jpeg" alt="wwr company logo">
-    <nav>
-        <ul class="navigation">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="trips.html">Trips</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-    </nav>
-</header>
-<main>
-    <h1 class="funny-font">Have An Adventure</h1>
-    <img src="images/larger-banner.jpg" alt="rafting side large banner">
-    <p>Hello! My name is Eli Avila and I am from Puebla, Mexico. I am really into in
-        playing
-        guitar and skateboarding. I am really excited to learn how to develop and fix
-        websites.
-        I love each night study the scriptures and meditate how the Lord has helped me
-        in
-        the
-        course of the day. </p>
-    <ul class="box indent">
-        <li><a href="https://churchofjesuschristtemples.org/puebla-mexico-temple/"
-              target="_blank">Puebla Mexico Temple</a></li>
-        <li><a href="https://newsroom.churchofjesuschrist.org/article/san-diego-california-temple"
-              target="_blank">San Diego California Temple</a></li>
-        <li><a href="https://www.churchofjesuschrist.org/temples/details/tijuana-mexico-temple?lang=eng"
-              target="_blank">Tijuana Mexico Temple</a></li>
-    </ul>
-</main>
-<aside class="box">
-    <h2>Mexico</h2>
-    <img src="images/mexico-dia-de-muertos.jpg" alt="Dia de Muertos">
-    <p>Mexico is a country located in part of North America, El Caribe and Center America.
-        Mexico is recognized for the diversity of holydays during the year, for myself I
-        love
-        "El Dia de Muertos" in this celebration we remember al the people ar ancestors
-        already
-        die, in other words they passed to the other side of the veil, we celebrate between
-        October 28th to November 2nd, all the cementeries get paint of orange and purple,
-        and
-        many people customize themselves in somenthig we call "Catrinas"</p>
-</aside>
+        <!--Call to action-->
+        <div class="cta">
+            <h2>Ready for the adventure of Lifetime?</h2>
+            <p>Explore our wide of guided rafting trips-from begginer-freindly floats to
+                expert-level rapids. Something for everyone!</p>
+            <a href="trips.html" class="cta-button">Trips</a>
+        </div>
 
-<footer>
-    <p>©2026 | ThunderRun Rafting | Eli Avila</p>
-    <nav class="socialmedia">
-        <a href="https://www.facebook.com/?locale=es_LA">
-            <img src="images/facebook-icon.png" alt="facebook icon">
-        </a>
-        <a href="https://mx.linkedin.com/">
-            <img src="images/linkedin-icon.png" alt="linkeldin icon">
-        </a>
-        <a href="https://www.instagram.com/">
-            <img src="images/instagram-icon.png" alt="instagram icon">
-        </a>
-    </nav>
-</footer>
+        <!--CSS grid with two images-->
+        <section class="offerings">
+            <h2>What We Offer</h2>
+            <div class="offerings-grid">
+                <div class="offering-card">
+                    <img src="" alt="">
+                    <h3>Group Adventures</h3>
+                    <p>Perfect for families, friends, corporate teams. Our expert guides ensure a
+                        safe and unforgettable experience on the water four groups of alll sizes.
+                    </p>
+
+                </div>
+                <div class="offering-card">
+                    <img src="" alt="">
+                    <h3>Expert Guides</h3>
+                    <p>Our certified guides bring years of expierience and passion to every trip.
+                        Your safety and fun are always our top priority on every run.</p>
+                </div>
+
+            </div>
+        </section>
+        <!-- Newsletter sign-up -->
+        <section class="newsletter">
+            <h2>Stay in the Current</h2>
+            <p>Sign up for our newletter and be the first to hear about new trips, seasonal deals,
+                and river condittions</p>
+            <form>
+                <label for="signup-name">Name</label>
+
+                <input type="text" id="signup-name" name="name" placeholder="Your full name"
+                  required>
+
+                <label for="signup-email">Email</label>
+                <input type="email" id="signup-email" name="email" placeholder="your@example.com"
+                  required>
+                <button tyoe="submit">Subscribe Now!</button>
+            </form>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>©2026 | ThunderRun Rafting | Eli Avila</p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com/?locale=es_LA">
+                <img src="images/facebook-icon.png" alt="facebook icon">
+            </a>
+            <a href="https://mx.linkedin.com/">
+                <img src="images/linkedin-icon.png" alt="linkeldin icon">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="images/instagram-icon.png" alt="instagram icon">
+            </a>
+        </nav>
+    </footer>
 </body>
 
 </html>
